@@ -1,0 +1,23 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar la data de entrenamiento gigante (Buena práctica)
+data/raw/eco_acoustic_train.csv
+
+# Opcional: ignorar modelos extremadamente pesados si superan los 100MB de GitHub
+# (Si sus .pkl son ligeros, comenten esta línea para que Streamlit pueda usarlos)
+# models_saved/*.pt
